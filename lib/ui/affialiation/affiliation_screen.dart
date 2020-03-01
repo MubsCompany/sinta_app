@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:sinta_app/wavy_header.dart';
+import 'package:sinta_app/utils/wavy_header.dart';
 import 'package:dio/dio.dart';
 
 

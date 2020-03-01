@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-import 'dot_type.dart';
+import 'package:sinta_app/utils/dot_type.dart';
 
 class ColorLoader extends StatefulWidget {
 

@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sinta_app/wavy_header.dart';
+import 'package:sinta_app/ui/author/author_screen.dart';
+import 'package:sinta_app/utils/SpinkitChasingDots.dart';
+import 'package:sinta_app/utils/loader.dart';
+import 'package:sinta_app/utils/wavy_header.dart';
 import 'dart:async';
-
-import 'Dashboard.dart';
-import 'SpinkitChasingDots.dart';
-import 'package:sinta_app/author.dart';
-import 'loader.dart';
 
 class SplashScreenPage extends StatefulWidget {
   @override

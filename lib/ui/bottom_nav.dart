@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
-import 'Dashboard.dart';
-import 'affiliation.dart';
-import 'author.dart';
+import 'package:sinta_app/ui/dashboard/dashboard.dart';
+import 'package:sinta_app/ui/affialiation/affiliation_screen.dart';
+
+import 'author/author_screen.dart';
 
 class BottomNav extends StatefulWidget {
   @override

@@ -3,10 +3,10 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sinta_app/wavy_header.dart';
+import 'package:sinta_app/utils/wavy_header.dart';
 import 'package:http/http.dart' as http;
 
-import 'bottom_nav.dart';
+import '../bottom_nav.dart';
 
 class LoginPage extends StatefulWidget {
   @override

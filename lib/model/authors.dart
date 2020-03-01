@@ -15,7 +15,13 @@ class Authors {
   String google_hindex;
   Affiliation affiliation;
 
-	Authors.fromJsonMap(Map<String, dynamic> map): 
+
+	Authors(this.id, this.nidn, this.fullname, this.google_id, this.scopus_id,
+			this.sinta_score, this.sinta_score_3, this.sinta_score_v2,
+			this.sinta_score_v2_3y, this.scopus_hindex, this.google_hindex,
+			this.affiliation);
+
+	Authors.fromJsonMap(Map<String, dynamic> map):
 		id = map["id"],
 		nidn = map["nidn"],
 		fullname = map["fullname"],
